@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: "/Prudhvi-Portfolio5/",
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -52,8 +53,9 @@
       },
     },
     build: {
-      target: 'esnext',
-      outDir: 'build',
+      // target: 'esnext',
+      outDir: 'docs',
+      emptyOutDir: true
     },
     server: {
       port: 3000,
