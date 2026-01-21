@@ -1,6 +1,8 @@
 
   {
       "name": "Prudhvi's Portfolio",
+      "homepage": "https://prudhvi040.github.io/Prudhvi-Portfolio5",
+
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -53,8 +55,10 @@
           "@vitejs/plugin-react-swc": "^3.10.2",
           "vite": "6.3.5"
       },
-      "scripts": {
-          "dev": "vite",
-          "build": "vite build"
-      }
+       "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
   }
