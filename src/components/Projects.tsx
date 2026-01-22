@@ -20,7 +20,8 @@ const projects = [
     tech: ['DATA ANALYSIS', 'VISUALIZATION'],
     category: 'MARKET RESEARCH',
     links: {
-      view: 'https://docs.google.com/spreadsheets/d/1TEzH5u4rVHSG6AeIQxVCawG-mhvdFaIL6Gj-eCr4nw/edit'
+      // view: 'https://docs.google.com/spreadsheets/d/1TEzH5u4rVHSG6AeIQxVCawG-mhvdFaIL6Gj-eCr4nw/edit'
+      view: 'https://docs.google.com/spreadsheets/d/1TEzH5u4rVHSG6AeIQxVCawGq-mhvdFaIL6Gj-eCr4nw/edit?gid=697089168#gid=697089168'
     }
   },
   {
